@@ -1,0 +1,16 @@
+.form{
+    background-color: aqua;
+    width: 550px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+#gender{
+    display: flex;
+    flex-direction: row;
+}
+.submit{
+    width: 100px;
+}

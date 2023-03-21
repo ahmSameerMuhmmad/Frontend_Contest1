@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- now we will first find out input varities -->
+    <!-- <input type="text" placeholder="Name">
+    <input type="email" placeholder="email">
+    <input type="date">
+    <input type="time">
+    <input type="datetime-local" >
+
+    <input type="url" placeholder="URL" value="http://google.com">
+    <input type="file">
+    <input type="number" value="24" placeholder="Number">
+    <input type="checkbox">
+    <input type="radio">
+    <input type="submit" placeholder="Differ" >
+    <input type="text" placeholder="Country Name" value="India"> -->
+
+    <!-- Signup form:
+    email
+    phone no
+    password
+    username
+    gender -->
+    <h1>Form formation</h1>
+   <section>
+    <form class="form" >
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Mobile no.">
+        <input type="email" placeholder="Email" name="email" required value="sameer123@gmail.com">
+        <input type="password" placeholder="Password" name="password">
+        <input type="text" placeholder="Username" name="abcd">
+
+        <div id="gender">
+            <div>
+                <label for="male">Male</label>
+                <input type="radio" id="male" value="m" name="gender">
+            </div>
+            <div>
+                <label for="female">Female</label>
+                <input type="radio" id="female" value="f" name="gender">
+            </div>
+            <div>
+                <label for="other">Other</label>
+                <input type="radio" id="other" value="other" name="gender">
+            </div>
+        </div>
+        <input class="submit" type="submit" value="submit">
+        
+    </form>
+   </section>
+    
+    
+</body>
+</html>
